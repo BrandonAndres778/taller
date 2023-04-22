@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Buscador de texto</title>
+    <style>
+      .highlight {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Buscador de texto</h1>
+    <form>
+      <label for="texto">Texto:</label>
+      <textarea id="texto" name="texto"></textarea><br><br>
+      <label for="buscar">Buscar:</label>
+      <input type="text" id="buscar" name="buscar"><br><br>
+      <input type="button" value="Buscar" onclick="buscarTexto()">
+    </form>
+    <div id="resultado"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
